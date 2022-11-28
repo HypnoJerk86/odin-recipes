@@ -1,0 +1,49 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: sienna;
+    font-size: 18px;
+    background-color: antiquewhite;
+}
+
+ul {
+    font-size: 25px;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+}
+
+.container {
+    width: 860px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.image {
+    margin: auto;
+    width: max-content;
+}
+
+.links {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.recipe {
+    text-align: left;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+}
