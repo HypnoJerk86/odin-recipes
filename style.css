@@ -1,3 +1,5 @@
+/* Created by Chris Newton as part of a group of exercises through The Odin Project.*/
+/* http://www.theodinproject.com */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: sienna;
@@ -5,6 +7,7 @@ body {
     background-color: antiquewhite;
     background-image: url(/images/bg_foodpattern.jpg);
 }
+/* unorderd lists are exclusively used for list ingredients within recipe pages. */
 ul {
     font-size: 25px;
 }
@@ -23,12 +26,13 @@ h2 {
 h3  {
     text-align: center;
 }
+/* Hyperlink control. */
 a:link {
-    color: antiquewhite;
+    color: brown;
     text-decoration: none;
 }
 a:visited {
-    color: antiquewhite;
+    color: brown;
     text-decoration: none;
 }
 a:hover {
@@ -39,7 +43,7 @@ a:active {
     color: brown;
     text-decoration: none;
 }
-
+/* MAIN Container that hold the document together. */
 .container {
     width: 900px;
     height: auto;
@@ -50,20 +54,23 @@ a:active {
     border-radius: 25px;
     box-sizing:border-box;
 }
+/*Page title "Odin Recipes". */
 .title {
     text-align: center;
     font-size: 30px;
 }
+/* NAVIGATION BAR - flexbox container. */
 .flex-container {
     display: flex;
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid brown;
-    background-color: brown;
+    border: 3px solid brown;
+    background-color: darkorange;
     border-radius: 25px;
 
 }
+/* NAVIGATION BAR - flexbox individual items in menu. */
 .flex-container div{
     font-size: 16pt;
     text-align: center;
@@ -72,16 +79,19 @@ a:active {
     width: auto;
     flex: 1;
 }
+
 .image {
     margin: auto;
     padding-top: 10px;
     width: max-content;
 }
+/* Block text on index.html, it now has its own class instead of sharing .recipe or .decription class. */
 .block {
     width: 700px;
     height: auto;
     display:inline;
 }
+
 .description {
     text-align: left;
 }
@@ -90,6 +100,9 @@ a:active {
     padding: 25px;
     margin: auto;
 }
+/* Copyright notice. */
 .footer {
     text-align: center;
+    padding-top: 20px;
+    font-size: 10pt;
 }
